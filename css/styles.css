@@ -2,15 +2,15 @@
 
 * {
   box-sizing: border-box;
-  text-align: center;
   font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
 }
 
 html {
   background-attachment: fixed;
+  background-color: #e0e8ff;
   background-image: url("../images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
-  background-color: #e0e8ff;
 }
 
 h2, h4, p {
@@ -22,39 +22,39 @@ p {
 }
 
 body {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
   padding: 3%;
 }
 
 main {
-  width: 400px;
+  align-items: center;
   background-color: #ffffff;
   border-radius: 15px;
-  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  overflow: hidden;
+  width: 400px;
 }
 
 .dancer {
   height: auto;
-  width: 100%;
   object-fit: contain;
+  width: 100%;
 }
 
 .text {
-  height: 100%;
-  width: 100%;
-  padding: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 1.5rem;
+  height: 100%;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 100%;
 }
 
 .overview-text {
@@ -62,34 +62,34 @@ main {
 }
 
 .plan-selector {
+  align-items: center;
+  background-color: #f5f7ff;
   border-radius: 15px;
   display: flex;
-  background-color: #f5f7ff;
-  align-items: center;
   justify-content: space-around;
   padding: 1rem;
 }
 
 .plan-details {
-  text-align: left;
-  padding-right: 3rem;
   margin: 0;
- }
+  padding-right: 3rem;
+  text-align: left;
+}
 
 .plan-selector a:hover {
-  text-decoration: none;
   color: #674bf8;
+  text-decoration: none;
 }
 
 .payment-button {
   background-color: #3829e0;
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  padding: 1rem;
   border-radius: 15px;
-  color: white;
+  border: none;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
 }
 
 .payment-button:hover {
@@ -97,18 +97,17 @@ main {
 }
 
 .cancel-button {
-  text-decoration: none;
   color: #7280a7;
+  text-decoration: none;
 }
 
 .cancel-button:hover {
   color: #000000;
 }
 
-
 .attribution {
-  margin-top: 1rem;
   font-size: 11px;
+  margin-top: 1rem;
   text-align: center;
 }
 
@@ -126,6 +125,6 @@ main {
   }
 
   .plan-details {
-  padding-right: 1rem;
+    padding-right: 1rem;
   }
 }
