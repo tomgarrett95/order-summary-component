@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - GitHub Repo: [Link](https://github.com/tomgarrett95/order-summary-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Link](https://tomgarrett95.github.io/order-summary-component/)
 
 ## My process
 
