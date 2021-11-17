@@ -2,18 +2,21 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Red Hat Display', sans-serif;
-  text-align: center;
-  font-size: 16px;
 }
 
-html {
-  background-color: #e0e8ff;
-  background-image: url("../images/pattern-background-desktop.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
+html, body {
   display: grid;
   height: 100%;
+}
+
+body {
+  background-color: #e0e8ff;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: repeat-x;
+  background-size: contain;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  text-align: center;
 }
 
 h1, p {
@@ -24,13 +27,13 @@ p {
   color: #7280a7;
 }
 
-body {
+.center-all {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 3%;
   margin: auto;
+  padding: 3%;
 }
 
 main {
@@ -130,15 +133,11 @@ h1, .plan-type {
 }
 
 @media only screen and (max-width: 375px) {
-  html {
+  body {
     background-image: url("../images/pattern-background-mobile.svg");
   }
 
   main {
-    width: 90vw;
-  }
-
-  .plan-details {
-    padding-right: 1rem;
+    width: auto;
   }
 }
