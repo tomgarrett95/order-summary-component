@@ -8,10 +8,10 @@
 }
 
 html {
-  background-attachment: fixed;
   background-color: #e0e8ff;
   background-image: url("../images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 h1, p {
@@ -26,8 +26,9 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   padding: 3%;
+  height: 100vh;
 }
 
 main {
@@ -126,7 +127,7 @@ h1, .plan-type {
   font-size: 0.9rem;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 375px) {
   html {
     background-image: url("../images/pattern-background-mobile.svg");
   }
