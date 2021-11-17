@@ -12,6 +12,8 @@ html {
   background-image: url("../images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  display: grid;
+  height: 100%;
 }
 
 h1, p {
@@ -28,7 +30,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 3%;
-  height: 100vh;
+  margin: auto;
 }
 
 main {
